@@ -61,6 +61,7 @@
         }
 
         .nav-links a:hover {
+            font-size: x-large;
             /* TODO MARDI CSS : Ajouter opacity: 0.6; */
         }
 
@@ -189,6 +190,7 @@
         }
 
         .skill-card:hover {
+            background: cyan;
             /* TODO MARDI CSS : Ajouter transform: translateY(-8px); */
         }
 
@@ -254,6 +256,10 @@
             color: white;
             font-size: 1.3rem;
             font-weight: 600;
+        }
+
+        .project-image:hover{
+            background: darkgreen;
         }
 
         .project-content {
