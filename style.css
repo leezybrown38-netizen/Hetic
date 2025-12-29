@@ -109,6 +109,7 @@
         }
 
         .cta-button:hover {
+            background: aquamarine;
             /* TODO MARDI CSS : Ajouter background-color: #0a84ff; */
         }
 
@@ -259,7 +260,7 @@
         }
 
         .project-image:hover{
-            background: darkgreen;
+            background: #6f6f74;
         }
 
         .project-content {
@@ -338,10 +339,17 @@
             font-size: 1rem;
             transition: all 0.3s;
         }
+        .form-group input:hover{
+            background: darkgray;
+        }
+
 
         .form-group input:focus,
         .form-group textarea:focus {
             /* TODO MARDI CSS : Ajouter outline: none; border-color: #0071e3; */
+        }
+        .form-group textarea:hover{
+            background: darkgray;
         }
 
         .form-group textarea {
@@ -363,6 +371,7 @@
         }
 
         .submit-button:hover {
+            background: cyan;
             /* TODO MARDI CSS : Ajouter background-color: #0a84ff; */
         }
 
@@ -376,6 +385,7 @@
         }
 
         .footer-content {
+            background: ghostwhite;
             display: flex;
             justify-content: space-around;
             align-items: flex-start;
