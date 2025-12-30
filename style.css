@@ -15,6 +15,31 @@
         }
 
         .container {
+             color: rgba(255,255,255,0.75);
+  font-family: "Playfair Display", serif;
+  font-size: 180%;
+  padding: 20px;
+  width: 24em;
+  text-align: center;
+  border-top: 3px solid #00d9ff;
+  border-left: 3px solid #00d9ff;
+  border-bottom: 3px solid #00d9ff;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+   box-shadow: 
+    0 0 10px #00d9ff,
+     0 0 20px #00d9ff,
+    0 0 40px #00d9ff,
+    inset 0 0 10px rgba(0, 217, 255, 0.2); 
+   text-shadow: 
+    0 0 10px #00d9ff,
+    0 0 20px #00d9ff,
+    0 0 40px #00d9ff;
+  white-space: nowrap;
+  overflow: hidden;
+   animation: 
+    typewriter 4s steps(44) 1s 1 normal both,
+     blinkTextCursor 500ms steps(44) infinite normal;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
