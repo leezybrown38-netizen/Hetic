@@ -69,8 +69,8 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            background-color: #ffffff;
-            color: #1d1d1f;
+            background-color: #2a0101;
+            color: hsl(240, 100%, 99%);
             padding: 120px 0;
             text-align: center;
             display: flex;
