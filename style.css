@@ -70,7 +70,7 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            background-color: #2a0101;
+            background-color: #68e0e47e;
             color: hsl(240, 100%, 99%);
             padding: 120px 0;
             text-align: center;
@@ -620,4 +620,28 @@
 .container:hover::after {
   top: 100%;
   left: 100%;
+}
+.typing {
+  width: 24ch; /* nombre de caractères */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #00f0ff;
+  font-family: "Courier New", monospace;
+  font-size: 2.2rem;
+  color: #00f0ff;
+
+  animation:
+    typing 3s steps(24),
+    blink 0.8s step-end infinite;
+}
+
+/* Animation écriture */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 24ch; }
+}
+
+/* Curseur clignotant */
+@keyframes blink {
+  50% { border-color: transparent; }
 }
