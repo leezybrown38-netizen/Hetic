@@ -393,7 +393,7 @@
         }
 
         .footer-content {
-            background: ghostwhite;
+            background: rgb(108, 108, 143);
             display: flex;
             justify-content: space-around;
             align-items: flex-start;
